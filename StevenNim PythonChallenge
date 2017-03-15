@@ -1,0 +1,28 @@
+#Look at all of these variables
+
+print "Super Mega Awesome Prototype Stereotype Typical Quest vAlpha"
+
+name = raw_input("What is your name?")
+print "Oh, so your name is " + name + "!"
+
+advenCho = raw_input("Would you like to go on an adventure?").lower()
+
+def startadventure(advenCho):
+    if advenCho.lower() == "yes":
+        print "Alright, let's go!"
+    elif advenCho.lower() == "no":
+        print "A real party pooper aren't you? Let me ask you again..."
+    else:
+        print "Please give me a simple answer. Yes or no?"
+startadventure("yes")
+
+print "I have 3 very special tasks for you. Which one do you want, " + name + "?"
+print "The murder mystery, the quest for riches, or the zombie survival task?"
+questCho = raw_input("I will value your choice this time.")
+
+def questchoice():
+    if questCho == "murder" or "murder mystery":
+        print "A twisted mind like yours would fit this task!"
+
+
+
